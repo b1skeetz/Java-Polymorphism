@@ -5,7 +5,6 @@ import java.math.RoundingMode;
 
 public class Main {
     public static void main(String[] args) {
-        TaxService taxService = new TaxService();
         Bill[] payments = new Bill[] {
                 new Bill(BigDecimal.valueOf(15000), new IncomeTaxType(), new TaxService()),
                 new Bill(BigDecimal.valueOf(50000), new VATaxType(), new TaxService()),
