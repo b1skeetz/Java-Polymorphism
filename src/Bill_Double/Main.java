@@ -1,4 +1,4 @@
-package Bill;
+package Bill_Double;
 
 public class Main {
     public static void main(String[] args) {

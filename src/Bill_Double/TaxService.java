@@ -1,4 +1,4 @@
-package Bill;
+package Bill_Double;
 
 public class TaxService {
     public void payOut(double taxAmount) {

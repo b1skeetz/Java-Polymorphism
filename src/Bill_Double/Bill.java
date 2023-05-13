@@ -1,4 +1,4 @@
-package Bill;
+package Bill_Double;
 
 public class Bill {
     private double amount;

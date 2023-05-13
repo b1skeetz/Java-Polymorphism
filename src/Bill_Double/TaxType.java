@@ -1,4 +1,4 @@
-package Bill;
+package Bill_Double;
 
 public class TaxType {
     public double calculateTaxFor(double amount) {
