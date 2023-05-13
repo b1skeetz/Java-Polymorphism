@@ -2,7 +2,6 @@ package Bill;
 
 public class Main {
     public static void main(String[] args) {
-        TaxService taxService = new TaxService();
         Bill[] payments = new Bill[] {
                 new Bill(15000, new IncomeTaxType(), new TaxService()),
                 new Bill(50000, new VATaxType(), new TaxService()),
