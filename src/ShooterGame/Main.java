@@ -18,12 +18,11 @@ public class Main {
         // запрашивать номер с клавиатуры
         // с помощью scanner.nextInt(),
         // пока не будет введено -1
-        while(slot != -1){
+        do {
             System.out.print("Введите слот оружия [0;4]. Чтобы выйти введите -1: ");
             slot = scanner.nextInt();
             player.shotWithWeapon(slot);
-        }
-
+        } while (slot != -1);
         System.out.println("Game over!");
     }
 }
